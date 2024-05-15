@@ -1,0 +1,79 @@
+==========biokg
+data shape:(2066926, 3)
+==========
+==========
+num of unique entity:105506
+==========
+==========
+num of unique relation:17
+==========
+==========
+['complex_in_pathway' 'complex_top_level_pathway'
+ 'disease_geneticDisorder' 'disease_pathway' 'drug_carrier' 'drug_disease'
+ 'drug_drug' 'drug_enzyme' 'drug_pathway' 'drug_protein' 'drug_target'
+ 'drug_transporter' 'member_of_complex' 'protein_disease'
+ 'protein_pathway' 'protein_protein' 'related_geneticDisorder']
+==========
+==========drkg
+data shape:(3987487, 3)
+==========
+==========
+num of unique entity:54023
+==========
+==========
+num of unique relation:11
+==========
+==========
+['anatomy-disease' 'anatomy-gene' 'biological_process-gene'
+ 'cellular_component-gene' 'diisease-disease' 'disease-gene'
+ 'disease-symptom' 'gene-gene' 'gene-molecular_function' 'gene-pathway'
+ 'gene-tax']
+==========
+==========hetionet
+data shape:(2236961, 3)
+==========
+==========
+num of unique entity:44651
+==========
+==========
+num of unique relation:15
+==========
+==========
+['Anatomy-Gene' 'Compound-Compound' 'Compound-Disease' 'Compound-Gene'
+ 'Compound-SideEffect' 'Disease-Anatomy' 'Disease-Disease' 'Disease-Gene'
+ 'Disease-Symptom' 'Gene-BiologicalProcess' 'Gene-CellularComponent'
+ 'Gene-Gene' 'Gene-MolecularFunction' 'Gene-Pathway'
+ 'PharmacologicClass-Compound']
+==========
+==========iBKH
+data shape:(43243744, 3)
+==========
+==========
+num of unique entity:97781
+==========
+==========
+num of unique relation:11
+==========
+==========
+['Anatomy-Gene' 'Disease-Disease' 'Disease-Gene' 'Disease-Pathway'
+ 'Drug-Disease' 'Drug-Drug' 'Drug-Gene' 'Drug-Pathway' 'Drug-effect'
+ 'Gene-Gene' 'Gene-Pathway']
+==========
+==========primekg
+data shape:(6780156, 6)
+==========
+==========
+num of unique entity:112332
+==========
+==========
+num of unique relation:25
+==========
+==========
+['anatomy_anatomy' 'anatomy_protein_absent' 'anatomy_protein_present'
+ 'bioprocess_bioprocess' 'bioprocess_protein' 'cellcomp_cellcomp'
+ 'cellcomp_protein' 'contraindication' 'disease_disease' 'disease_protein'
+ 'drug_drug' 'drug_protein' 'exposure_bioprocess' 'exposure_cellcomp'
+ 'exposure_disease' 'exposure_exposure' 'exposure_molfunc'
+ 'exposure_protein' 'indication' 'molfunc_molfunc' 'molfunc_protein'
+ 'off-label use' 'pathway_pathway' 'pathway_protein' 'protein_protein']
+==========
