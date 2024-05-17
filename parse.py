@@ -1,4 +1,3 @@
-from os import P_ALL, write
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -14,14 +13,14 @@ class counter():
         
         print("-"*15 +self.name)
         self.df=self.getDF(path)
-        self.getData()
-        #self.getRelationGraph() 
+        #self.getData()
+        self.getRelationGraph() 
         print("-"*15)
 
 
     def getDF(self,path):
         df=pd.read_csv(path)
-        if "primekg" not in path:
+        if "primekg" not in path and "phkg_mapped" not in path:
             df.columns=["head","relation","tail"]
         
         if 'iBKH' in path:
@@ -102,6 +101,7 @@ datasets=[
         "./hetionet_kg_mapped.csv",
         "./iBKH_mapped.csv",
         "./primekg_mapped.csv",
+        "./phkg_mapped.csv"
         ]
 
 
