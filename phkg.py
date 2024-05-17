@@ -440,3 +440,9 @@ def main(args):
 if __name__ == '__main__':
     main(parse_args())
 
+#example cmd
+"""
+python phkg.py --model DistMult -d 512 --train_triples train_0.txt --test_triples test_0.txt --valid_triples valid_0.txt --entities_fix entities_fix_0.dict
+--relation_fix relations_fix1.dict -save kgmodel/phkg_DistMult/repo_0/ --entity_emb_name entity_embedding_0 --relation_emb_name relation_embedding_0
+"""
+
