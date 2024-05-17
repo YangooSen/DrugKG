@@ -322,10 +322,10 @@ def main(args):
         hidden_dim=args.hidden_dim,
         gamma=args.gamma,
         device=device,
-        double_entity_embedding=False,
-        double_relation_embedding=False,
-        triple_relation_embedding=True,
-        triple_entity_embedding=False,
+        double_entity_embedding=args.double_entity_embedding,
+        double_relation_embedding=args.double_relation_embedding,
+        triple_relation_embedding=args.triple_relation_embedding,
+        triple_entity_embedding=args.triple_entity_embedding,
     )
 
     logging.info('Model Parameter Configuration:')
