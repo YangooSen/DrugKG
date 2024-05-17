@@ -214,7 +214,7 @@ def main(args):
     args.do_valid = True
     args.do_downstream = False
     args.do_test = True
-    args.data_path = "/home/likun/pingce/kgdata/phkg/"
+    args.data_path = "/home/yangsen/pingce/kgdata/phkg/"
     # args.model = "pairRE"
     args.negative_sample_size = 500
     args.batch_size = 16 
