@@ -1,3 +1,4 @@
+
 ==========biokg
 data shape:(2066926, 3)
 ==========
@@ -28,8 +29,8 @@ num of unique relation:11
  'cellular_component-gene' 'diisease-disease' 'disease-gene'
  'disease-symptom' 'gene-gene' 'gene-molecular_function' 'gene-pathway'
  'gene-tax']
-==========
 ==========hetionet
+==========
 data shape:(2236961, 3)
 ==========
 ==========
@@ -46,7 +47,7 @@ num of unique relation:15
  'PharmacologicClass-Compound']
 ==========
 ==========iBKH
-data shape:(43243744, 3)
+data shape:(432066926243744, 3)
 ==========
 ==========
 num of unique entity:97781
@@ -76,4 +77,18 @@ num of unique relation:25
  'exposure_disease' 'exposure_exposure' 'exposure_molfunc'
  'exposure_protein' 'indication' 'molfunc_molfunc' 'molfunc_protein'
  'off-label use' 'pathway_pathway' 'pathway_protein' 'protein_protein']
+==========
+==========phkg
+data shape:(707785, 8)
+==========
+==========
+num of unique entity:70242
+==========
+==========
+num of unique relation:9
+==========
+==========
+['chemical-chemical' 'chemical-disease' 'chemical-gene' 'disease-chemical'
+ 'disease-disease' 'disease-gene' 'gene-chemical' 'gene-disease'
+ 'gene-gene']
 ==========
