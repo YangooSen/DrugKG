@@ -19,3 +19,6 @@ nohup $command_to_run > $log_file 2> $error_file &
 
 # 打印任务已启动的消息
 echo "任务 '$task_name' 已启动，日志文件保存在 $log_file，错误文件保存在 $error_file"
+
+# example cmd
+# task_submit biokg_ComplEx "python rf.py --kgname biokg --kg_kge_name biokg_ComplEx"
